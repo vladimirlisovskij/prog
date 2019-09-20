@@ -1,4 +1,4 @@
-# Решенные задач
+# Решенные задачи
 
 ## Задания
 * [Задания 1-5](https://github.com/vladimirlisovskij/prog/blob/master/Tasks/Task1-5/task1-5.cpp)
