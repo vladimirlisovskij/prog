@@ -44,15 +44,13 @@ int main() {
     cout << z << ' ' << x << endl;
 
     if (z > x) {
-        for (int i = z - x; i > 0; i--) {
-            z -= 1;
-            x += 1;
-        }
+        x = z -x;
+        z = z -x;
+        x = z + x;
     } else{
-        for (int i = x - z; i > 0; i--) {
-            z += 1;
-            x -= 1;
-        }
+        z = x - z;
+        x = x - z;
+        z = x + z;
     }
 
     cout << z << ' ' << x << endl;
