@@ -3,9 +3,16 @@ project(Works)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Task6 Tasks/Task6/task6.cpp)
 add_executable(Task1-5 Tasks/Task1-5/task1-5.cpp)
+add_executable(Task6 Tasks/Task6/task6.cpp)
 add_executable(Task7 Tasks/Task7/task7.cpp)
 add_executable(Task8 Tasks/Task8/task8.cpp)
+add_executable(Task9 Tasks/Task9/task9.cpp)
+add_executable(Task10 Tasks/Task10/task10.cpp)
+add_executable(Task11 Tasks/Task11/task11.cpp)
+add_executable(Task12 Tasks/Task12/task12.cpp)
+add_executable(Task13 Tasks/Task13/task13.cpp)
+add_executable(Task14 Tasks/Task14/task14.cpp)
+add_executable(Task15 Tasks/Task15/task15.cpp)
 
 add_executable(Lab1 Labs/Lab1/lab1.cpp)

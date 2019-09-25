@@ -37,21 +37,13 @@ int main() {
     cout << "Четвертая задача" << endl;
     int z,x, temp;
     cin >> z >> x;
-    temp = z;
+    x = z;
     z = x;
-    x = temp;
 
     cout << z << ' ' << x << endl;
-
-    if (z > x) {
-        x = z -x;
-        z = z -x;
-        x = z + x;
-    } else{
-        z = x - z;
-        x = x - z;
-        z = x + z;
-    }
+    x = z -x;
+    z = z -x;
+    x = z + x;
 
     cout << z << ' ' << x << endl;
 
@@ -60,6 +52,6 @@ int main() {
     const double g = -9.8;
     double x0, v0, t0;
     cin >> x0 >> v0 >> t0;
-    cout << abs(x0 + v0*t0 + g*t0*t0/2) << endl;
+    cout <<x0 + v0*t0 + g*t0*t0/2 << endl;
     return 0;
 }
