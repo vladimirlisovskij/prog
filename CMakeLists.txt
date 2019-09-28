@@ -16,3 +16,4 @@ add_executable(Task14 Tasks/Task14/task14.cpp)
 add_executable(Task15 Tasks/Task15/task15.cpp)
 
 add_executable(Lab1 Labs/Lab1/lab1.cpp)
+add_executable(Lab2 Labs/Lab2/lab2.cpp)
