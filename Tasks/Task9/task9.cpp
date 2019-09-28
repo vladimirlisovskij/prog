@@ -14,8 +14,8 @@ int main(){
     srand(time(NULL));
 
     while (ans) {
-        int num = rand() % 100;
-        //cout<< num << endl;
+        int num = rand() % 101;
+//        cout<< num << endl;
         m = false;
         for (int i = 0; i <5; i++) {
             cin >> ans2;

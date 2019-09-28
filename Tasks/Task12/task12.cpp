@@ -10,7 +10,7 @@ int main(){
     int a;
     cin >> a;
 
-    int b[a];
+    int *b = new int[a];
 
     for (int i =0; i < a; i ++){
         b[i] = i+1;
@@ -31,6 +31,6 @@ int main(){
     cout << ((b[a-1] != 0) ? "Простое" : "Не простое");
 
 
-
+    delete[] b;
     return 0;
 }
