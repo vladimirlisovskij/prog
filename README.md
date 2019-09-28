@@ -12,4 +12,4 @@
 | [Задание 12 *](Tasks/Task12/task12.cpp) |
 | [Задание 13](Tasks/Task13/task13.cpp) |
 | [Задание 14 *](Tasks/Task14/task14.cpp) |
-| [Задание 15](Tasks/Task14/task14.cpp) |
+| [Задание 15](Tasks/Task15/task15.cpp) |
