@@ -30,7 +30,7 @@
 
 #### Ход работы
 
-Из таблицы была выбрана фукция 4.
+Из таблицы была выбрана фукция ![](img2/pic4.png).
 
 1. Протабулируйте функцию и запишите получившиеся реультаты в отчёт в виде таблицы. При этом ***a*** = 0.7, ***b*** = 1.2, начала и конца интервала ***х<sub>нач</sub>*** = 0.5, ***x<sub>кон</sub>*** = 1.5 и шага ***d<sub>x</sub>*** = 0.05;
 
@@ -73,60 +73,30 @@
 
 using namespace std;
 
-double z1(double x){
-    return (abs(x));
-}
-
-double z2(double x){
-    return (abs(x)) + cos(x);
-}
-
-double z3(double x){
-    return (tan(x));
-}
-
-
 int main(){
     double a, b ,x1, x2, d, temp, x_max, x_min, x;
 
     bool flag = true;
 
+    cin >> a >> b >> x1 >> x2 >> d;  //    0.7 1.2 0.5 1.5 0.05
+    cout << "|  " << 'x' << " | " << 'y' << " |" <<  endl << "|-----|-----|" << endl;
+
+    x = x1;
     x_max = 0;
     x_min = 0;
 
-    cin >> a >> b >> x1 >> x2 >> d;
+    for (int i = 0; i <= (x2 -x1)/d; i ++, x += d){
+        
+        if (x <= a) temp = abs(x);
+        else if ((a < x)&& (x < b)) temp = abs(x) + cos(x);
+        else if( x >= b) temp = tan(x);
 
-    cout << "|  " << 'x' << " | " << 'y' << " |" <<  endl << "|-----|-----|" << endl;
-
-    for (int i = 0; i <= (x2 -x1)/d; i ++){
-        x = x1 + (d*i);
-        if (x <= a) {
-            temp = z1(x);
-            if (flag) {
-                x_max = temp;
-                x_min = temp;
-                flag = false;
-            }
-        }
-        else if ((a < x)&& (x < b)) {
-            temp = z2(x);
-            if (flag) {
-                x_max = temp;
-                x_min = temp;
-                flag = false;
-            }
-        }
-        else if( x >= b){
-            temp = z3(x);
-            if (flag) {
-                x_max = temp;
-                x_min = temp;
-                flag = false;
-            }
-        }
-
-        if (temp > x_max) x_max = temp;
-        if (temp < x_min) x_min = temp;
+        if (flag) {
+            x_max = temp;
+            x_min = temp;
+            flag = false;
+        } else if (temp > x_max) x_max = temp;
+        else if (temp < x_min) x_min = temp;
 
         cout <<  "|  " << x << " | " << temp<< " |" <<  endl;
     }
