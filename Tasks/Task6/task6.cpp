@@ -11,7 +11,7 @@ using  namespace std;
     double a,b,c;
     cin >> a >> b >> c;
     if (!a){
-        (!b ? cout << "Корней нет" : cout << "X = " << -c / b) << endl;
+        (!b ? (!c ? cout << "Бесконечно много решений" : cout << "решений нет") : cout << "X = " << -c / b) << endl;
     }else{
         double D = b*b - 4*a*c;
         if (D<0){

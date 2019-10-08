@@ -24,8 +24,10 @@ int  main(){
         cin >> c;
         if (c <=0 || a <= 0 || b <= 0){
             cout << "Длины сторон должны быть положительными!";
-        } else {
-            cout << "S = " << geron((a + b + c) / 2, a, b, c) << endl;
+        } if ((a +b < c) && (a + c) < b && (c + b) <a ) cout << "Это не треугольник";
+        else {
+                cout << "S = " << geron((a + b + c) / 2, a, b, c) << endl;
+            }
         }
 
     }else if (m == 2){
