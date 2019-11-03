@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Task17.dir/Tasks/Task17/task17.cpp.o  -o Task17 

@@ -6,9 +6,9 @@
 
 using namespace std;
 
-int fact(int a, int res = 1){
-    if (a == 1) return  res;
-    else return fact(a-1, res*a);
+int fact(int a){
+    if (!a) return  1;
+    else return a * fact(a-1);
     
 }
 

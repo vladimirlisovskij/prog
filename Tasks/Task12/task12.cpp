@@ -8,28 +8,23 @@ using namespace std;
 
 int main(){
     int a;
+    bool flag = true;
+
     cin >> a;
 
-    int *b = new int[a];
-
-    for (int i =0; i < a; i ++){
-        b[i] = i+1;
-    }
-
-    for (int i = 1; i <a; i++){
-        if (b[i] != 0){
-            for (int j = b[i]*2; j <= a; j += b[i]){
-                b[j-1] = 0;
+    bool *b = new bool[a];
+    for (int i = 2; i < a; i++){
+        for (int j = 2*i; j < a; j += i){
+            cout << j << endl;
+            b[j] == true;
+            if (b[a]){
+                flag = false;
+                cout << "не простое";
+                break;
             }
         }
+        if (!flag) break;
     }
-
-    /*for (int i = 0; i <a; i ++){
-        cout << b[i];
-    }*/
-
-    cout << ((b[a-1] != 0) ? "Простое" : "Не простое");
-
 
     delete[] b;
     return 0;

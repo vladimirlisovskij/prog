@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Task20.dir/Tasks/Task20/task20.cpp.o  -o Task20 
