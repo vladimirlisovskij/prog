@@ -18,6 +18,9 @@
 | [Задание 18 *](Tasks/Task18/task18.cpp) |
 | [Задание 19 *](Tasks/Task19/task19.cpp) |
 | [Задание 20 *](Tasks/Task20/task20.cpp) |
-| [Задание 21](Tasks/Task21/task21.cpp) |
+| [Задание 21 *](Tasks/Task21/task21.cpp) |
+| [Задание 22 *](Tasks/Task22/task22.cpp) |
+| [Задание 23 *](Tasks/Task23/task23.cpp) |
+| [Задание 24 *](Tasks/Task24/task24.cpp) |
 
 \* - принятые задачи
