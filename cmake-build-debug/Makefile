@@ -124,6 +124,32 @@ Lab2/fast:
 .PHONY : Lab2/fast
 
 #=============================================================================
+# Target rules for targets named Task23
+
+# Build rule for target.
+Task23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task23
+.PHONY : Task23
+
+# fast build rule for target.
+Task23/fast:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/build
+.PHONY : Task23/fast
+
+#=============================================================================
+# Target rules for targets named Task22
+
+# Build rule for target.
+Task22: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task22
+.PHONY : Task22
+
+# fast build rule for target.
+Task22/fast:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/build
+.PHONY : Task22/fast
+
+#=============================================================================
 # Target rules for targets named Task21
 
 # Build rule for target.
@@ -135,6 +161,19 @@ Task21: cmake_check_build_system
 Task21/fast:
 	$(MAKE) -f CMakeFiles/Task21.dir/build.make CMakeFiles/Task21.dir/build
 .PHONY : Task21/fast
+
+#=============================================================================
+# Target rules for targets named Task24
+
+# Build rule for target.
+Task24: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task24
+.PHONY : Task24
+
+# fast build rule for target.
+Task24/fast:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/build
+.PHONY : Task24/fast
 
 #=============================================================================
 # Target rules for targets named Task9
@@ -762,6 +801,87 @@ Tasks/Task21/task21.cpp.s:
 	$(MAKE) -f CMakeFiles/Task21.dir/build.make CMakeFiles/Task21.dir/Tasks/Task21/task21.cpp.s
 .PHONY : Tasks/Task21/task21.cpp.s
 
+Tasks/Task22/task22.o: Tasks/Task22/task22.cpp.o
+
+.PHONY : Tasks/Task22/task22.o
+
+# target to build an object file
+Tasks/Task22/task22.cpp.o:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/Tasks/Task22/task22.cpp.o
+.PHONY : Tasks/Task22/task22.cpp.o
+
+Tasks/Task22/task22.i: Tasks/Task22/task22.cpp.i
+
+.PHONY : Tasks/Task22/task22.i
+
+# target to preprocess a source file
+Tasks/Task22/task22.cpp.i:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/Tasks/Task22/task22.cpp.i
+.PHONY : Tasks/Task22/task22.cpp.i
+
+Tasks/Task22/task22.s: Tasks/Task22/task22.cpp.s
+
+.PHONY : Tasks/Task22/task22.s
+
+# target to generate assembly for a file
+Tasks/Task22/task22.cpp.s:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/Tasks/Task22/task22.cpp.s
+.PHONY : Tasks/Task22/task22.cpp.s
+
+Tasks/Task23/task23.o: Tasks/Task23/task23.cpp.o
+
+.PHONY : Tasks/Task23/task23.o
+
+# target to build an object file
+Tasks/Task23/task23.cpp.o:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/Tasks/Task23/task23.cpp.o
+.PHONY : Tasks/Task23/task23.cpp.o
+
+Tasks/Task23/task23.i: Tasks/Task23/task23.cpp.i
+
+.PHONY : Tasks/Task23/task23.i
+
+# target to preprocess a source file
+Tasks/Task23/task23.cpp.i:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/Tasks/Task23/task23.cpp.i
+.PHONY : Tasks/Task23/task23.cpp.i
+
+Tasks/Task23/task23.s: Tasks/Task23/task23.cpp.s
+
+.PHONY : Tasks/Task23/task23.s
+
+# target to generate assembly for a file
+Tasks/Task23/task23.cpp.s:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/Tasks/Task23/task23.cpp.s
+.PHONY : Tasks/Task23/task23.cpp.s
+
+Tasks/Task24/task24.o: Tasks/Task24/task24.cpp.o
+
+.PHONY : Tasks/Task24/task24.o
+
+# target to build an object file
+Tasks/Task24/task24.cpp.o:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/Tasks/Task24/task24.cpp.o
+.PHONY : Tasks/Task24/task24.cpp.o
+
+Tasks/Task24/task24.i: Tasks/Task24/task24.cpp.i
+
+.PHONY : Tasks/Task24/task24.i
+
+# target to preprocess a source file
+Tasks/Task24/task24.cpp.i:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/Tasks/Task24/task24.cpp.i
+.PHONY : Tasks/Task24/task24.cpp.i
+
+Tasks/Task24/task24.s: Tasks/Task24/task24.cpp.s
+
+.PHONY : Tasks/Task24/task24.s
+
+# target to generate assembly for a file
+Tasks/Task24/task24.cpp.s:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/Tasks/Task24/task24.cpp.s
+.PHONY : Tasks/Task24/task24.cpp.s
+
 Tasks/Task6/task6.o: Tasks/Task6/task6.cpp.o
 
 .PHONY : Tasks/Task6/task6.o
@@ -879,7 +999,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Lab2"
+	@echo "... Task23"
+	@echo "... Task22"
 	@echo "... Task21"
+	@echo "... Task24"
 	@echo "... Task9"
 	@echo "... Task8"
 	@echo "... Task7"
@@ -942,6 +1065,15 @@ help:
 	@echo "... Tasks/Task21/task21.o"
 	@echo "... Tasks/Task21/task21.i"
 	@echo "... Tasks/Task21/task21.s"
+	@echo "... Tasks/Task22/task22.o"
+	@echo "... Tasks/Task22/task22.i"
+	@echo "... Tasks/Task22/task22.s"
+	@echo "... Tasks/Task23/task23.o"
+	@echo "... Tasks/Task23/task23.i"
+	@echo "... Tasks/Task23/task23.s"
+	@echo "... Tasks/Task24/task24.o"
+	@echo "... Tasks/Task24/task24.i"
+	@echo "... Tasks/Task24/task24.s"
 	@echo "... Tasks/Task6/task6.o"
 	@echo "... Tasks/Task6/task6.i"
 	@echo "... Tasks/Task6/task6.s"

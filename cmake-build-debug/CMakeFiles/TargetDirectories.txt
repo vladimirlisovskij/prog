@@ -1,7 +1,10 @@
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Lab2.dir
+/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task23.dir
+/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task22.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task21.dir
+/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task24.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task9.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task8.dir
 /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/Task7.dir

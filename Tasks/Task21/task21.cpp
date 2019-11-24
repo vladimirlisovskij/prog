@@ -8,12 +8,14 @@ int main(){
     int array[10][8] = {};
     int row, col, att = 5;
     srand(time(NULL));
-//    int* ptr = &array[0][0];
-//    int num = rand() % (10 * 8 -1);
-//    cout << num << endl;
-//    cout << num/10  + 1<< ' ' << num%8 << endl;
-//    *(ptr + num) = 1;
-    *(&array[0][0] + rand() % (10 * 8 - 1)) = 1;
+
+    int* ptr = &array[0][0];
+    int num = rand() % (10 * 8 -1);
+    cout << num/8  << ' ' << num%8 << endl;
+    *(ptr + num) = 1;
+//          или
+//    *(&array[0][0] + rand() % (10 * 8 - 1)) = 1;
+
     while (att){
         cout << endl << "Осталось попыток: " << att << endl;
         cin >> row >> col;

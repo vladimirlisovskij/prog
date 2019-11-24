@@ -20,7 +20,9 @@ add_executable(Task18 Tasks/Task18/task18.cpp)
 add_executable(Task19 Tasks/Task19/task19.cpp)
 add_executable(Task20 Tasks/Task20/task20.cpp)
 add_executable(Task21 Tasks/Task21/task21.cpp)
-
+add_executable(Task22 Tasks/Task22/task22.cpp)
+add_executable(Task23 Tasks/Task23/task23.cpp)
+add_executable(Task24 Tasks/Task24/task24.cpp)
 
 
 add_executable(Lab1 Labs/Lab1/lab1.cpp)

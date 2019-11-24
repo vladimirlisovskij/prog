@@ -3,7 +3,5 @@
 
 CMakeFiles/Lab1.dir/Labs/Lab1/lab1.cpp.o: ../Labs/Lab1/lab1.cpp
 
-CMakeFiles/Lab1.dir/Tasks/Task20/task20.cpp.o: ../Tasks/Task20/task20.cpp
-
-CMakeFiles/Lab1.dir/Tasks/Task21/task21.cpp.o: ../Tasks/Task21/task21.cpp
+CMakeFiles/Lab1.dir/Tasks/Task24/task24.cpp.o: ../Tasks/Task24/task24.cpp
 

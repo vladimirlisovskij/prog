@@ -83,6 +83,98 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Task23">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task23/fast">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task22">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task22/fast">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Task21">
 				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task21" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
@@ -124,6 +216,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task21/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task24">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task24/fast">
+				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -956,6 +1094,15 @@
 		</Unit>
 		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task21/task21.cpp">
 			<Option target="Task21"/>
+		</Unit>
+		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task22/task22.cpp">
+			<Option target="Task22"/>
+		</Unit>
+		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task23/task23.cpp">
+			<Option target="Task23"/>
+		</Unit>
+		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task24/task24.cpp">
+			<Option target="Task24"/>
 		</Unit>
 		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task6/task6.cpp">
 			<Option target="Task6"/>

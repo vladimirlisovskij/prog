@@ -54,7 +54,10 @@ CMAKE_BINARY_DIR = /home/vladimir/CLionProjects/prog/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/Lab2.dir/all
+all: CMakeFiles/Task23.dir/all
+all: CMakeFiles/Task22.dir/all
 all: CMakeFiles/Task21.dir/all
+all: CMakeFiles/Task24.dir/all
 all: CMakeFiles/Task9.dir/all
 all: CMakeFiles/Task8.dir/all
 all: CMakeFiles/Task7.dir/all
@@ -77,7 +80,10 @@ all: CMakeFiles/Task20.dir/all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Lab2.dir/clean
+clean: CMakeFiles/Task23.dir/clean
+clean: CMakeFiles/Task22.dir/clean
 clean: CMakeFiles/Task21.dir/clean
+clean: CMakeFiles/Task24.dir/clean
 clean: CMakeFiles/Task9.dir/clean
 clean: CMakeFiles/Task8.dir/clean
 clean: CMakeFiles/Task7.dir/clean
@@ -131,6 +137,60 @@ CMakeFiles/Lab2.dir/clean:
 .PHONY : CMakeFiles/Lab2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Task23.dir
+
+# All Build rule for target.
+CMakeFiles/Task23.dir/all:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/depend
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target Task23"
+.PHONY : CMakeFiles/Task23.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Task23.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task23.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Task23.dir/rule
+
+# Convenience name for target.
+Task23: CMakeFiles/Task23.dir/rule
+
+.PHONY : Task23
+
+# clean rule for target.
+CMakeFiles/Task23.dir/clean:
+	$(MAKE) -f CMakeFiles/Task23.dir/build.make CMakeFiles/Task23.dir/clean
+.PHONY : CMakeFiles/Task23.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Task22.dir
+
+# All Build rule for target.
+CMakeFiles/Task22.dir/all:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/depend
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Task22"
+.PHONY : CMakeFiles/Task22.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Task22.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task22.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Task22.dir/rule
+
+# Convenience name for target.
+Task22: CMakeFiles/Task22.dir/rule
+
+.PHONY : Task22
+
+# clean rule for target.
+CMakeFiles/Task22.dir/clean:
+	$(MAKE) -f CMakeFiles/Task22.dir/build.make CMakeFiles/Task22.dir/clean
+.PHONY : CMakeFiles/Task22.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Task21.dir
 
 # All Build rule for target.
@@ -158,13 +218,40 @@ CMakeFiles/Task21.dir/clean:
 .PHONY : CMakeFiles/Task21.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Task24.dir
+
+# All Build rule for target.
+CMakeFiles/Task24.dir/all:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/depend
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Task24"
+.PHONY : CMakeFiles/Task24.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Task24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Task24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Task24.dir/rule
+
+# Convenience name for target.
+Task24: CMakeFiles/Task24.dir/rule
+
+.PHONY : Task24
+
+# clean rule for target.
+CMakeFiles/Task24.dir/clean:
+	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/clean
+.PHONY : CMakeFiles/Task24.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Task9.dir
 
 # All Build rule for target.
 CMakeFiles/Task9.dir/all:
 	$(MAKE) -f CMakeFiles/Task9.dir/build.make CMakeFiles/Task9.dir/depend
 	$(MAKE) -f CMakeFiles/Task9.dir/build.make CMakeFiles/Task9.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Task9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Task9"
 .PHONY : CMakeFiles/Task9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +278,7 @@ CMakeFiles/Task9.dir/clean:
 CMakeFiles/Task8.dir/all:
 	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/depend
 	$(MAKE) -f CMakeFiles/Task8.dir/build.make CMakeFiles/Task8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Task8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target Task8"
 .PHONY : CMakeFiles/Task8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +305,7 @@ CMakeFiles/Task8.dir/clean:
 CMakeFiles/Task7.dir/all:
 	$(MAKE) -f CMakeFiles/Task7.dir/build.make CMakeFiles/Task7.dir/depend
 	$(MAKE) -f CMakeFiles/Task7.dir/build.make CMakeFiles/Task7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target Task7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Task7"
 .PHONY : CMakeFiles/Task7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -326,7 +413,7 @@ CMakeFiles/Task1-5.dir/clean:
 CMakeFiles/Task6.dir/all:
 	$(MAKE) -f CMakeFiles/Task6.dir/build.make CMakeFiles/Task6.dir/depend
 	$(MAKE) -f CMakeFiles/Task6.dir/build.make CMakeFiles/Task6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Task6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Task6"
 .PHONY : CMakeFiles/Task6.dir/all
 
 # Build rule for subdir invocation for target.

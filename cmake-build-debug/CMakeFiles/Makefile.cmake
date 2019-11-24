@@ -49,7 +49,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Lab2.dir/DependInfo.cmake"
+  "CMakeFiles/Task23.dir/DependInfo.cmake"
+  "CMakeFiles/Task22.dir/DependInfo.cmake"
   "CMakeFiles/Task21.dir/DependInfo.cmake"
+  "CMakeFiles/Task24.dir/DependInfo.cmake"
   "CMakeFiles/Task9.dir/DependInfo.cmake"
   "CMakeFiles/Task8.dir/DependInfo.cmake"
   "CMakeFiles/Task7.dir/DependInfo.cmake"

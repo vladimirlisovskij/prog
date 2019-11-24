@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/vladimir/CLionProjects/prog/Labs/Lab1/lab1.cpp
+/home/vladimir/CLionProjects/prog/Tasks/Task24/task24.cpp
 iostream
--
-
-/home/vladimir/CLionProjects/prog/Tasks/Task20/task20.cpp
-iostream
--
-string
--
-
-/home/vladimir/CLionProjects/prog/Tasks/Task21/task21.cpp
-iostream
--
-string
 -
 

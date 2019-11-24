@@ -6,13 +6,13 @@
 
 using namespace std;
 
-void  func(int * arr, int num, int steps){
-    for (int i = 0; i < steps; i++) if (num < *(arr +i)) swap(num, *(arr +i));  // меняем местами переменные
+void  func(int* arr, int num, int steps){
+    for (int i = 0; i < steps; i++) if (num < *(arr +i)) swap(num, arr[i]);  // меняем местами переменные
     if (steps < 5)  arr[steps] = num; // ставим переменную в конец
 }
 
-void out(int * arr, int num){  // вывод
-    for (num; num >=0; num--) cout << *(arr + num) << ' ';
+void out(int* arr, int num){  // вывод
+    for (num; num >= 0; num--) cout << *(arr + num) << ' ';
     cout << endl;
 }
 
