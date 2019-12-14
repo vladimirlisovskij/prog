@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/canned_dead/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/canned_dead/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vladimir/CLionProjects/prog
+CMAKE_SOURCE_DIR = /home/canned_dead/Документы/CLionProjects/prog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vladimir/CLionProjects/prog/cmake-build-debug
+CMAKE_BINARY_DIR = /home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/vladimir/CLionProjects/prog/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/canned_dead/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/vladimir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/canned_dead/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/CMakeFiles /home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vladimir/CLionProjects/prog/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Lab3
+
+# Build rule for target.
+Lab3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab3
+.PHONY : Lab3
+
+# fast build rule for target.
+Lab3/fast:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/build
+.PHONY : Lab3/fast
+
+#=============================================================================
+# Target rules for targets named Lab4
+
+# Build rule for target.
+Lab4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab4
+.PHONY : Lab4
+
+# fast build rule for target.
+Lab4/fast:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/build
+.PHONY : Lab4/fast
+
+#=============================================================================
+# Target rules for targets named Tasks30
+
+# Build rule for target.
+Tasks30: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Tasks30
+.PHONY : Tasks30
+
+# fast build rule for target.
+Tasks30/fast:
+	$(MAKE) -f CMakeFiles/Tasks30.dir/build.make CMakeFiles/Tasks30.dir/build
+.PHONY : Tasks30/fast
+
+#=============================================================================
+# Target rules for targets named Task29
+
+# Build rule for target.
+Task29: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task29
+.PHONY : Task29
+
+# fast build rule for target.
+Task29/fast:
+	$(MAKE) -f CMakeFiles/Task29.dir/build.make CMakeFiles/Task29.dir/build
+.PHONY : Task29/fast
+
+#=============================================================================
+# Target rules for targets named Task26
+
+# Build rule for target.
+Task26: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task26
+.PHONY : Task26
+
+# fast build rule for target.
+Task26/fast:
+	$(MAKE) -f CMakeFiles/Task26.dir/build.make CMakeFiles/Task26.dir/build
+.PHONY : Task26/fast
+
+#=============================================================================
 # Target rules for targets named Lab2
 
 # Build rule for target.
@@ -122,6 +187,19 @@ Lab2: cmake_check_build_system
 Lab2/fast:
 	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/build
 .PHONY : Lab2/fast
+
+#=============================================================================
+# Target rules for targets named Task25
+
+# Build rule for target.
+Task25: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task25
+.PHONY : Task25
+
+# fast build rule for target.
+Task25/fast:
+	$(MAKE) -f CMakeFiles/Task25.dir/build.make CMakeFiles/Task25.dir/build
+.PHONY : Task25/fast
 
 #=============================================================================
 # Target rules for targets named Task23
@@ -358,6 +436,32 @@ Task15/fast:
 .PHONY : Task15/fast
 
 #=============================================================================
+# Target rules for targets named Task28
+
+# Build rule for target.
+Task28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task28
+.PHONY : Task28
+
+# fast build rule for target.
+Task28/fast:
+	$(MAKE) -f CMakeFiles/Task28.dir/build.make CMakeFiles/Task28.dir/build
+.PHONY : Task28/fast
+
+#=============================================================================
+# Target rules for targets named Task27
+
+# Build rule for target.
+Task27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Task27
+.PHONY : Task27
+
+# fast build rule for target.
+Task27/fast:
+	$(MAKE) -f CMakeFiles/Task27.dir/build.make CMakeFiles/Task27.dir/build
+.PHONY : Task27/fast
+
+#=============================================================================
 # Target rules for targets named Task17
 
 # Build rule for target.
@@ -449,6 +553,114 @@ Labs/Lab2/lab2.s: Labs/Lab2/lab2.cpp.s
 Labs/Lab2/lab2.cpp.s:
 	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/Labs/Lab2/lab2.cpp.s
 .PHONY : Labs/Lab2/lab2.cpp.s
+
+Labs/Lab3/lab3.o: Labs/Lab3/lab3.cpp.o
+
+.PHONY : Labs/Lab3/lab3.o
+
+# target to build an object file
+Labs/Lab3/lab3.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/lab3.cpp.o
+.PHONY : Labs/Lab3/lab3.cpp.o
+
+Labs/Lab3/lab3.i: Labs/Lab3/lab3.cpp.i
+
+.PHONY : Labs/Lab3/lab3.i
+
+# target to preprocess a source file
+Labs/Lab3/lab3.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/lab3.cpp.i
+.PHONY : Labs/Lab3/lab3.cpp.i
+
+Labs/Lab3/lab3.s: Labs/Lab3/lab3.cpp.s
+
+.PHONY : Labs/Lab3/lab3.s
+
+# target to generate assembly for a file
+Labs/Lab3/lab3.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/lab3.cpp.s
+.PHONY : Labs/Lab3/lab3.cpp.s
+
+Labs/Lab3/libbmp.o: Labs/Lab3/libbmp.cpp.o
+
+.PHONY : Labs/Lab3/libbmp.o
+
+# target to build an object file
+Labs/Lab3/libbmp.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/libbmp.cpp.o
+.PHONY : Labs/Lab3/libbmp.cpp.o
+
+Labs/Lab3/libbmp.i: Labs/Lab3/libbmp.cpp.i
+
+.PHONY : Labs/Lab3/libbmp.i
+
+# target to preprocess a source file
+Labs/Lab3/libbmp.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/libbmp.cpp.i
+.PHONY : Labs/Lab3/libbmp.cpp.i
+
+Labs/Lab3/libbmp.s: Labs/Lab3/libbmp.cpp.s
+
+.PHONY : Labs/Lab3/libbmp.s
+
+# target to generate assembly for a file
+Labs/Lab3/libbmp.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Labs/Lab3/libbmp.cpp.s
+.PHONY : Labs/Lab3/libbmp.cpp.s
+
+Labs/Lab4/helper.o: Labs/Lab4/helper.cpp.o
+
+.PHONY : Labs/Lab4/helper.o
+
+# target to build an object file
+Labs/Lab4/helper.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/helper.cpp.o
+.PHONY : Labs/Lab4/helper.cpp.o
+
+Labs/Lab4/helper.i: Labs/Lab4/helper.cpp.i
+
+.PHONY : Labs/Lab4/helper.i
+
+# target to preprocess a source file
+Labs/Lab4/helper.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/helper.cpp.i
+.PHONY : Labs/Lab4/helper.cpp.i
+
+Labs/Lab4/helper.s: Labs/Lab4/helper.cpp.s
+
+.PHONY : Labs/Lab4/helper.s
+
+# target to generate assembly for a file
+Labs/Lab4/helper.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/helper.cpp.s
+.PHONY : Labs/Lab4/helper.cpp.s
+
+Labs/Lab4/main.o: Labs/Lab4/main.cpp.o
+
+.PHONY : Labs/Lab4/main.o
+
+# target to build an object file
+Labs/Lab4/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/main.cpp.o
+.PHONY : Labs/Lab4/main.cpp.o
+
+Labs/Lab4/main.i: Labs/Lab4/main.cpp.i
+
+.PHONY : Labs/Lab4/main.i
+
+# target to preprocess a source file
+Labs/Lab4/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/main.cpp.i
+.PHONY : Labs/Lab4/main.cpp.i
+
+Labs/Lab4/main.s: Labs/Lab4/main.cpp.s
+
+.PHONY : Labs/Lab4/main.s
+
+# target to generate assembly for a file
+Labs/Lab4/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab4.dir/build.make CMakeFiles/Lab4.dir/Labs/Lab4/main.cpp.s
+.PHONY : Labs/Lab4/main.cpp.s
 
 Tasks/Task1-5/task1-5.o: Tasks/Task1-5/task1-5.cpp.o
 
@@ -882,6 +1094,168 @@ Tasks/Task24/task24.cpp.s:
 	$(MAKE) -f CMakeFiles/Task24.dir/build.make CMakeFiles/Task24.dir/Tasks/Task24/task24.cpp.s
 .PHONY : Tasks/Task24/task24.cpp.s
 
+Tasks/Task25/task25.o: Tasks/Task25/task25.cpp.o
+
+.PHONY : Tasks/Task25/task25.o
+
+# target to build an object file
+Tasks/Task25/task25.cpp.o:
+	$(MAKE) -f CMakeFiles/Task25.dir/build.make CMakeFiles/Task25.dir/Tasks/Task25/task25.cpp.o
+.PHONY : Tasks/Task25/task25.cpp.o
+
+Tasks/Task25/task25.i: Tasks/Task25/task25.cpp.i
+
+.PHONY : Tasks/Task25/task25.i
+
+# target to preprocess a source file
+Tasks/Task25/task25.cpp.i:
+	$(MAKE) -f CMakeFiles/Task25.dir/build.make CMakeFiles/Task25.dir/Tasks/Task25/task25.cpp.i
+.PHONY : Tasks/Task25/task25.cpp.i
+
+Tasks/Task25/task25.s: Tasks/Task25/task25.cpp.s
+
+.PHONY : Tasks/Task25/task25.s
+
+# target to generate assembly for a file
+Tasks/Task25/task25.cpp.s:
+	$(MAKE) -f CMakeFiles/Task25.dir/build.make CMakeFiles/Task25.dir/Tasks/Task25/task25.cpp.s
+.PHONY : Tasks/Task25/task25.cpp.s
+
+Tasks/Task26/task26.o: Tasks/Task26/task26.cpp.o
+
+.PHONY : Tasks/Task26/task26.o
+
+# target to build an object file
+Tasks/Task26/task26.cpp.o:
+	$(MAKE) -f CMakeFiles/Task26.dir/build.make CMakeFiles/Task26.dir/Tasks/Task26/task26.cpp.o
+.PHONY : Tasks/Task26/task26.cpp.o
+
+Tasks/Task26/task26.i: Tasks/Task26/task26.cpp.i
+
+.PHONY : Tasks/Task26/task26.i
+
+# target to preprocess a source file
+Tasks/Task26/task26.cpp.i:
+	$(MAKE) -f CMakeFiles/Task26.dir/build.make CMakeFiles/Task26.dir/Tasks/Task26/task26.cpp.i
+.PHONY : Tasks/Task26/task26.cpp.i
+
+Tasks/Task26/task26.s: Tasks/Task26/task26.cpp.s
+
+.PHONY : Tasks/Task26/task26.s
+
+# target to generate assembly for a file
+Tasks/Task26/task26.cpp.s:
+	$(MAKE) -f CMakeFiles/Task26.dir/build.make CMakeFiles/Task26.dir/Tasks/Task26/task26.cpp.s
+.PHONY : Tasks/Task26/task26.cpp.s
+
+Tasks/Task27/task27.o: Tasks/Task27/task27.cpp.o
+
+.PHONY : Tasks/Task27/task27.o
+
+# target to build an object file
+Tasks/Task27/task27.cpp.o:
+	$(MAKE) -f CMakeFiles/Task27.dir/build.make CMakeFiles/Task27.dir/Tasks/Task27/task27.cpp.o
+.PHONY : Tasks/Task27/task27.cpp.o
+
+Tasks/Task27/task27.i: Tasks/Task27/task27.cpp.i
+
+.PHONY : Tasks/Task27/task27.i
+
+# target to preprocess a source file
+Tasks/Task27/task27.cpp.i:
+	$(MAKE) -f CMakeFiles/Task27.dir/build.make CMakeFiles/Task27.dir/Tasks/Task27/task27.cpp.i
+.PHONY : Tasks/Task27/task27.cpp.i
+
+Tasks/Task27/task27.s: Tasks/Task27/task27.cpp.s
+
+.PHONY : Tasks/Task27/task27.s
+
+# target to generate assembly for a file
+Tasks/Task27/task27.cpp.s:
+	$(MAKE) -f CMakeFiles/Task27.dir/build.make CMakeFiles/Task27.dir/Tasks/Task27/task27.cpp.s
+.PHONY : Tasks/Task27/task27.cpp.s
+
+Tasks/Task28/task28.o: Tasks/Task28/task28.cpp.o
+
+.PHONY : Tasks/Task28/task28.o
+
+# target to build an object file
+Tasks/Task28/task28.cpp.o:
+	$(MAKE) -f CMakeFiles/Task28.dir/build.make CMakeFiles/Task28.dir/Tasks/Task28/task28.cpp.o
+.PHONY : Tasks/Task28/task28.cpp.o
+
+Tasks/Task28/task28.i: Tasks/Task28/task28.cpp.i
+
+.PHONY : Tasks/Task28/task28.i
+
+# target to preprocess a source file
+Tasks/Task28/task28.cpp.i:
+	$(MAKE) -f CMakeFiles/Task28.dir/build.make CMakeFiles/Task28.dir/Tasks/Task28/task28.cpp.i
+.PHONY : Tasks/Task28/task28.cpp.i
+
+Tasks/Task28/task28.s: Tasks/Task28/task28.cpp.s
+
+.PHONY : Tasks/Task28/task28.s
+
+# target to generate assembly for a file
+Tasks/Task28/task28.cpp.s:
+	$(MAKE) -f CMakeFiles/Task28.dir/build.make CMakeFiles/Task28.dir/Tasks/Task28/task28.cpp.s
+.PHONY : Tasks/Task28/task28.cpp.s
+
+Tasks/Task29/task29.o: Tasks/Task29/task29.cpp.o
+
+.PHONY : Tasks/Task29/task29.o
+
+# target to build an object file
+Tasks/Task29/task29.cpp.o:
+	$(MAKE) -f CMakeFiles/Task29.dir/build.make CMakeFiles/Task29.dir/Tasks/Task29/task29.cpp.o
+.PHONY : Tasks/Task29/task29.cpp.o
+
+Tasks/Task29/task29.i: Tasks/Task29/task29.cpp.i
+
+.PHONY : Tasks/Task29/task29.i
+
+# target to preprocess a source file
+Tasks/Task29/task29.cpp.i:
+	$(MAKE) -f CMakeFiles/Task29.dir/build.make CMakeFiles/Task29.dir/Tasks/Task29/task29.cpp.i
+.PHONY : Tasks/Task29/task29.cpp.i
+
+Tasks/Task29/task29.s: Tasks/Task29/task29.cpp.s
+
+.PHONY : Tasks/Task29/task29.s
+
+# target to generate assembly for a file
+Tasks/Task29/task29.cpp.s:
+	$(MAKE) -f CMakeFiles/Task29.dir/build.make CMakeFiles/Task29.dir/Tasks/Task29/task29.cpp.s
+.PHONY : Tasks/Task29/task29.cpp.s
+
+Tasks/Task30/t30.o: Tasks/Task30/t30.cpp.o
+
+.PHONY : Tasks/Task30/t30.o
+
+# target to build an object file
+Tasks/Task30/t30.cpp.o:
+	$(MAKE) -f CMakeFiles/Tasks30.dir/build.make CMakeFiles/Tasks30.dir/Tasks/Task30/t30.cpp.o
+.PHONY : Tasks/Task30/t30.cpp.o
+
+Tasks/Task30/t30.i: Tasks/Task30/t30.cpp.i
+
+.PHONY : Tasks/Task30/t30.i
+
+# target to preprocess a source file
+Tasks/Task30/t30.cpp.i:
+	$(MAKE) -f CMakeFiles/Tasks30.dir/build.make CMakeFiles/Tasks30.dir/Tasks/Task30/t30.cpp.i
+.PHONY : Tasks/Task30/t30.cpp.i
+
+Tasks/Task30/t30.s: Tasks/Task30/t30.cpp.s
+
+.PHONY : Tasks/Task30/t30.s
+
+# target to generate assembly for a file
+Tasks/Task30/t30.cpp.s:
+	$(MAKE) -f CMakeFiles/Tasks30.dir/build.make CMakeFiles/Tasks30.dir/Tasks/Task30/t30.cpp.s
+.PHONY : Tasks/Task30/t30.cpp.s
+
 Tasks/Task6/task6.o: Tasks/Task6/task6.cpp.o
 
 .PHONY : Tasks/Task6/task6.o
@@ -998,7 +1372,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Lab3"
+	@echo "... Lab4"
+	@echo "... Tasks30"
+	@echo "... Task29"
+	@echo "... Task26"
 	@echo "... Lab2"
+	@echo "... Task25"
 	@echo "... Task23"
 	@echo "... Task22"
 	@echo "... Task21"
@@ -1017,6 +1397,8 @@ help:
 	@echo "... Task12"
 	@echo "... Task13"
 	@echo "... Task15"
+	@echo "... Task28"
+	@echo "... Task27"
 	@echo "... Task17"
 	@echo "... Task19"
 	@echo "... Task20"
@@ -1026,6 +1408,18 @@ help:
 	@echo "... Labs/Lab2/lab2.o"
 	@echo "... Labs/Lab2/lab2.i"
 	@echo "... Labs/Lab2/lab2.s"
+	@echo "... Labs/Lab3/lab3.o"
+	@echo "... Labs/Lab3/lab3.i"
+	@echo "... Labs/Lab3/lab3.s"
+	@echo "... Labs/Lab3/libbmp.o"
+	@echo "... Labs/Lab3/libbmp.i"
+	@echo "... Labs/Lab3/libbmp.s"
+	@echo "... Labs/Lab4/helper.o"
+	@echo "... Labs/Lab4/helper.i"
+	@echo "... Labs/Lab4/helper.s"
+	@echo "... Labs/Lab4/main.o"
+	@echo "... Labs/Lab4/main.i"
+	@echo "... Labs/Lab4/main.s"
 	@echo "... Tasks/Task1-5/task1-5.o"
 	@echo "... Tasks/Task1-5/task1-5.i"
 	@echo "... Tasks/Task1-5/task1-5.s"
@@ -1074,6 +1468,24 @@ help:
 	@echo "... Tasks/Task24/task24.o"
 	@echo "... Tasks/Task24/task24.i"
 	@echo "... Tasks/Task24/task24.s"
+	@echo "... Tasks/Task25/task25.o"
+	@echo "... Tasks/Task25/task25.i"
+	@echo "... Tasks/Task25/task25.s"
+	@echo "... Tasks/Task26/task26.o"
+	@echo "... Tasks/Task26/task26.i"
+	@echo "... Tasks/Task26/task26.s"
+	@echo "... Tasks/Task27/task27.o"
+	@echo "... Tasks/Task27/task27.i"
+	@echo "... Tasks/Task27/task27.s"
+	@echo "... Tasks/Task28/task28.o"
+	@echo "... Tasks/Task28/task28.i"
+	@echo "... Tasks/Task28/task28.s"
+	@echo "... Tasks/Task29/task29.o"
+	@echo "... Tasks/Task29/task29.i"
+	@echo "... Tasks/Task29/task29.s"
+	@echo "... Tasks/Task30/t30.o"
+	@echo "... Tasks/Task30/t30.i"
+	@echo "... Tasks/Task30/t30.s"
 	@echo "... Tasks/Task6/task6.o"
 	@echo "... Tasks/Task6/task6.i"
 	@echo "... Tasks/Task6/task6.s"

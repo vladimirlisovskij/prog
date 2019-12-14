@@ -8,38 +8,268 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab3">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab3/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tasks30">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Tasks30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tasks30"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tasks30/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Tasks30" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tasks30/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task29">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task29"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task29/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task29/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task26">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task26"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task26/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task26/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab2">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Lab2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +284,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab2/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Lab2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +307,61 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task25">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task25"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task25/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task25" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task25/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task23">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -100,15 +376,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task23/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -123,15 +399,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task23/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task22">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -146,15 +422,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task22/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -169,15 +445,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task22/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task21">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task21" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -192,15 +468,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task21"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task21"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task21/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task21" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -215,15 +491,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task21/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task21/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task24">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -238,15 +514,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task24/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task24" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -261,15 +537,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task24/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task9">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -284,15 +560,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task9"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task9"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task9/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task9" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -307,15 +583,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task9/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task9/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task8">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -330,15 +606,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task8"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task8"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task8/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task8" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -353,15 +629,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task8/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task8/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task7">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task7" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -376,15 +652,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task7"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task7"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task7/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task7" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -399,15 +675,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task7/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task7/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task14">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task14" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -422,15 +698,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task14"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task14"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task14/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task14" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task14" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -445,15 +721,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task14/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task14/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task10">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task10" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -468,15 +744,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task10"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task10"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task10/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task10" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -491,15 +767,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task10/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task10/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task1-5">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task1-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task1-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -514,15 +790,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task1-5"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task1-5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task1-5/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task1-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task1-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -537,15 +813,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task1-5/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task1-5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task6">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -560,15 +836,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task6"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task6/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task6" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -583,15 +859,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task6/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab1">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Lab1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -606,15 +882,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab1/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Lab1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Lab1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -629,15 +905,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task11">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task11" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -652,15 +928,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task11"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task11"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task11/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task11" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -675,15 +951,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task11/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task11/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task16">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task16" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -698,15 +974,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task16"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task16"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task16/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task16" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -721,15 +997,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task16/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task16/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task18">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task18" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -744,15 +1020,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task18"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task18"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task18/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task18" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task18" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -767,15 +1043,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task18/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task18/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task12">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task12" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -790,15 +1066,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task12"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task12"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task12/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task12" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -813,15 +1089,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task12/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task12/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task13">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task13" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -836,15 +1112,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task13"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task13"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task13/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task13" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -859,15 +1135,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task13/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task13/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task15">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task15" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -882,15 +1158,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task15"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task15"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task15/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task15" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task15" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -905,15 +1181,107 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task15/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task15/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task28">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task28"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task28/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task28/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task27">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task27"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task27/fast">
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task27/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task17">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task17" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -928,15 +1296,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task17"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task17"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task17/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task17" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task17" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -951,15 +1319,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task17/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task17/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task19">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task19" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -974,15 +1342,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task19"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task19"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task19/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task19" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task19" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -997,15 +1365,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task19/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task19/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task20">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task20" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1020,15 +1388,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task20"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task20"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Task20/fast">
-				<Option output="/home/vladimir/CLionProjects/prog/cmake-build-debug/Task20" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/vladimir/CLionProjects/prog/cmake-build-debug"/>
+				<Option output="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Task20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -1043,80 +1411,116 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task20/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vladimir/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task20/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/canned_dead/Документы/CLionProjects/prog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Labs/Lab1/lab1.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab1/lab1.cpp">
 			<Option target="Lab1"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Labs/Lab2/lab2.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab2/lab2.cpp">
 			<Option target="Lab2"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task1-5/task1-5.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab3/lab3.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab3/libbmp.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab3/libbmp.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab4/helper.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab4/helper.h">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Labs/Lab4/main.cpp">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task1-5/task1-5.cpp">
 			<Option target="Task1-5"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task10/task10.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task10/task10.cpp">
 			<Option target="Task10"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task11/task11.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task11/task11.cpp">
 			<Option target="Task11"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task12/task12.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task12/task12.cpp">
 			<Option target="Task12"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task13/task13.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task13/task13.cpp">
 			<Option target="Task13"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task14/task14.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task14/task14.cpp">
 			<Option target="Task14"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task15/task15.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task15/task15.cpp">
 			<Option target="Task15"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task16/task16.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task16/task16.cpp">
 			<Option target="Task16"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task17/task17.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task17/task17.cpp">
 			<Option target="Task17"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task18/task18.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task18/task18.cpp">
 			<Option target="Task18"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task19/task19.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task19/task19.cpp">
 			<Option target="Task19"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task20/task20.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task20/task20.cpp">
 			<Option target="Task20"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task21/task21.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task21/task21.cpp">
 			<Option target="Task21"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task22/task22.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task22/task22.cpp">
 			<Option target="Task22"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task23/task23.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task23/task23.cpp">
 			<Option target="Task23"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task24/task24.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task24/task24.cpp">
 			<Option target="Task24"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task6/task6.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task25/task25.cpp">
+			<Option target="Task25"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task26/task26.cpp">
+			<Option target="Task26"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task27/task27.cpp">
+			<Option target="Task27"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task28/task28.cpp">
+			<Option target="Task28"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task29/task29.cpp">
+			<Option target="Task29"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task30/t30.cpp">
+			<Option target="Tasks30"/>
+		</Unit>
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task6/task6.cpp">
 			<Option target="Task6"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task7/task7.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task7/task7.cpp">
 			<Option target="Task7"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task8/task8.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task8/task8.cpp">
 			<Option target="Task8"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/Tasks/Task9/task9.cpp">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/Tasks/Task9/task9.cpp">
 			<Option target="Task9"/>
 		</Unit>
-		<Unit filename="/home/vladimir/CLionProjects/prog/CMakeLists.txt">
+		<Unit filename="/home/canned_dead/Документы/CLionProjects/prog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
