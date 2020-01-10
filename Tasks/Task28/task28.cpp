@@ -7,48 +7,103 @@
 
 using namespace std;
 
-bool is_sort(int* arr, int len){
-    for (int i = 1; i < len; i++){
-        if (arr[i - 1] < arr [i]){
-            return false;
-        }
+enum Order{
+    ABC,
+    DESC
+};
+
+bool is_sort(int* arr, int len, Order type){
+    switch (type) {
+        case DESC:
+            for (int i = 1; i < len; i++) {
+                if (arr[i - 1] < arr[i]) {
+                    return false;
+                }
+            }
+            return true;
+        case ABC:
+            for (int i = 1; i < len; i++) {
+                if (arr[i - 1] > arr[i]) {
+                    return false;
+                }
+            }
+            return true;
     }
-    return  true;
 }
 
-bool is_sort(vector<int> arr, int len){
-    for (int i = 1; i < len; i++){
-        if (arr[i - 1] < arr [i]){
-            return false;
-        }
+bool is_sort(vector<int> arr, int len, Order type){
+    switch (type) {
+        case DESC:
+            for (int i = 1; i < len; i++) {
+                if (arr[i - 1] < arr[i]) {
+                    return false;
+                }
+            }
+            return true;
+        case ABC:
+            for (int i = 1; i < len; i++) {
+                if (arr[i - 1] > arr[i]) {
+                    return false;
+                }
+            }
+            return true;
     }
-    return  true;
 }
 
-void Bozo_sort(int* arr, int len){
+void Bozo_sort(int* arr, int len, Order type = ABC){
     cout << "BOZO ARR" << endl;
-    while (!is_sort(arr, len)) {
-        int index1 = rand() % len;
-        int index2 = rand() % (len - 1);
-        if (index2 >= index1) index2++;
-        swap(arr[index1], arr[index2]);
+    switch (type) {
+        case DESC:
+            while (!is_sort(arr, len, type)) {
+                int index1 = rand() % len;
+                int index2 = rand() % (len - 1);
+                if (index2 >= index1) index2++;
+                swap(arr[index1], arr[index2]);
 
-        for (int i = 0; i < len; i++) cout << arr[i] << ' ';
-        cout << endl;
+                for (int i = 0; i < len; i++) cout << arr[i] << ' ';
+                cout << endl;
+            }
+            break;
+        case ABC:
+            while (!is_sort(arr, len, type)) {
+                int index1 = rand() % len;
+                int index2 = rand() % (len - 1);
+                if (index2 <= index1) index2++;
+                swap(arr[index1], arr[index2]);
+
+                for (int i = 0; i < len; i++) cout << arr[i] << ' ';
+                cout << endl;
+            }
+            break;
     }
 }
 
-void Bozo_sort(vector<int> &arr){
+void Bozo_sort(vector<int> &arr, Order type = ABC){
     cout << "BOZO VECTOR" << endl;
     int len = arr.size();
-    while (!is_sort(arr, len)) {
-        int index1 = rand() % len;
-        int index2 = rand() % (len - 1);
-        if (index2 >= index1) index2++;
-        swap(arr[index1], arr[index2]);
+    switch (type) {
+        case DESC:
+            while (!is_sort(arr, len, type)) {
+                int index1 = rand() % len;
+                int index2 = rand() % (len - 1);
+                if (index2 >= index1) index2++;
+                swap(arr[index1], arr[index2]);
 
-        for (int i = 0; i < len; i++) cout << arr[i] << ' ';
-        cout << endl;
+                for (int i = 0; i < len; i++) cout << arr[i] << ' ';
+                cout << endl;
+            }
+            break;
+        case ABC:
+            while (!is_sort(arr, len, type)) {
+                int index1 = rand() % len;
+                int index2 = rand() % (len - 1);
+                if (index2 <= index1) index2++;
+                swap(arr[index1], arr[index2]);
+
+                for (int i = 0; i < len; i++) cout << arr[i] << ' ';
+                cout << endl;
+            }
+            break;
     }
 }
 
@@ -63,16 +118,31 @@ int* random_num (int* a, int* b, int* c, int index){
     }
 }
 
-void Bozo_sort(int* a, int* b, int* c){
+void Bozo_sort(int* a, int* b, int* c, Order type = ABC){
     cout << "BOZO a b c" << endl;
-    while (!((*a >= *b) && (*b >= *c))) {
-        int index1 = rand() % 3;
-        int index2 = rand() % 2;
-        if (index2 >= index1) index2++;
-        swap(*random_num(a, b, c, index1),
-             *random_num(a, b, c, index2));
+    switch (type) {
+        case DESC:
+            while (!((*a >= *b) && (*b >= *c))) {
+                int index1 = rand() % 3;
+                int index2 = rand() % 2;
+                if (index2 >= index1) index2++;
+                swap(*random_num(a, b, c, index1),
+                     *random_num(a, b, c, index2));
 
-        cout << *a << *b << *c << endl;
+                cout << *a << *b << *c << endl;
+            }
+            break;
+        case ABC:
+            while (!((*a <= *b) && (*b <= *c))) {
+                int index1 = rand() % 3;
+                int index2 = rand() % 2;
+                if (index2 <= index1) index2++;
+                swap(*random_num(a, b, c, index1),
+                     *random_num(a, b, c, index2));
+
+                cout << *a << *b << *c << endl;
+            }
+            break;
     }
 }
 
@@ -87,9 +157,9 @@ int main(){
         cin >> a >> b >> c;
         Bozo_sort(&a, &b, &c);
         int arr[] = {a,b,c};
-        Bozo_sort(arr, 3);
+        Bozo_sort(arr, 3, DESC);
         vector<int> arr2 ={a, b, c};
-        Bozo_sort(arr2);
+        Bozo_sort(arr2, DESC);
     } else {
         int *arr = new int[n];
 
@@ -101,7 +171,7 @@ int main(){
         }
 
         Bozo_sort(arr, n);
-        Bozo_sort(arr2);
+//        Bozo_sort(arr2, DESC);
 
 
         delete[] arr;

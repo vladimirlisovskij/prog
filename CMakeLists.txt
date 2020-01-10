@@ -30,6 +30,7 @@ add_executable(Task29 Tasks/Task29/task29.cpp)
 add_executable(Task28 Tasks/Task28/task28.cpp)
 add_executable(Tasks30 Tasks/Task30/t30.cpp)
 
+add_executable(Lab5  Labs/Lab5/lab5.cpp)
 add_executable(Lab4 Labs/Lab4/helper.h Labs/Lab4/main.cpp Labs/Lab4/helper.cpp)
 add_executable(Lab2 Labs/Lab2/lab2.cpp)
 add_executable(Lab3 Labs/Lab3/libbmp.h Labs/Lab3/libbmp.cpp Labs/Lab3/lab3.cpp)

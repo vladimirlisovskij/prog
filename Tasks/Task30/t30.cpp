@@ -39,15 +39,11 @@ char* strtok2(char* string, const char* delim){
         while (!is_ok(str[end], delim, strlen(delim)) && end < leng){
             end ++;
         }
-        int len = end - start;
-        char* res = new char [len + 1];
-        for (int i = 0; i < len; i ++){
-            res[i] = str[i + start];
-        }
-        res[len] = '\0';
+        int temp = start;
+        str[end] = '\0';
         end ++;
         start = end;
-        return res;
+        return str+ temp;
     }
 }
 
