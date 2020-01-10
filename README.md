@@ -28,3 +28,5 @@
 | [Задание 28](Tasks/Task28/task28.cpp) |
 | [Задание 29](Tasks/Task29/task29.cpp) |
 | [Задание 30](Tasks/Task30/t30.cpp) |
+
+император хранит!
