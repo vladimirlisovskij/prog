@@ -29,6 +29,7 @@ add_executable(Task27 Tasks/Task27/task27.cpp)
 add_executable(Task29 Tasks/Task29/task29.cpp)
 add_executable(Task28 Tasks/Task28/task28.cpp)
 add_executable(Tasks30 Tasks/Task30/t30.cpp)
+add_executable(Tasks31 Tasks/Task31/task31.cpp)
 
 add_executable(Lab6  Labs/Lab6/lab6.cpp Labs/Lab6/httplib.h)
 add_executable(Lab5  Labs/Lab5/lab5.cpp)
