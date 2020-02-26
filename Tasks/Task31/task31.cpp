@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <set>
 #include <queue>
 
 std::string maze[25] = {
@@ -33,80 +32,33 @@ std::string maze[25] = {
 
 int x_max = 26, y_max = 24, x_min = 0, y_min = 0;
 
-
-std::pair<int, int> go_left(int x, int y) {  // идем влево
-    while (::maze[y][--x] == ' ') {  // пока не найдем стенку или выход
-        if ((y > ::y_min && ::maze[y - 1][x] != '#') || (y < ::y_max && ::maze[y + 1][x] != '#')) {  // если можно свернуть
-            ::maze[y][x + 1] = '#';  // что бы не возвращаться
-            return std::pair<int, int> {x, y};
+bool check(int x, int y) {
+    if (x <= ::x_max && x >= ::x_min && y <= ::y_max & y >= y_min) {
+        switch (::maze[y][x]) {
+            case '#':
+                return false;
+            case ' ':
+                return true;
+            default:
+                std::cout << ::maze[y][x] << " ";
+                return false;
         }
-    }
-    if (::maze[y][x] <= 90 && ::maze[y][x] >= 65) {  // нашли выход
-        std::cout << ::maze[y][x];  // вывод выхода
-    }
-    return std::pair<int, int> {-1, -1};
-}
-
-
-std::pair<int, int> go_right(int x, int y) {
-    while (::maze[y][++x] == ' ') {
-        if ((y > ::y_min && ::maze[y - 1][x] != '#') || (y < ::y_max && ::maze[y + 1][x] != '#')) {
-            ::maze[y][x - 1] = '#';
-            return std::pair<int, int> {x, y};
-        }
-    }
-    if (::maze[y][x] <= 90 && ::maze[y][x] >= 65) {
-        std::cout << ::maze[y][x];
-    }
-    return std::pair<int, int> {-1, -1};
-}
-
-
-std::pair<int, int> go_down(int x, int y) {
-    while (::maze[--y][x] == ' ') {
-        if ((x > ::x_min && ::maze[y][x - 1] != '#') || (x < ::x_max && ::maze[y][x + 1] != '#')) {
-            ::maze[y + 1][x] = '#';
-            return std::pair<int, int> {x, y};
-        }
-    }
-    if (::maze[y][x] <= 90 && ::maze[y][x] >= 65) {
-        std::cout << ::maze[y][x];
-    }
-    return std::pair<int, int> {-1, -1};
-}
-
-
-std::pair<int, int> go_up(int x, int y) {
-    while (::maze[++y][x] == ' ') {
-        if ((x > ::x_min && ::maze[y][x - 1] != '#') || (x < ::x_max && ::maze[y][x + 1] != '#')) {
-            ::maze[y - 1][x] = '#';
-            return std::pair<int, int> {x, y};
-        }
-    }
-    if (::maze[y][x] <= 90 && ::maze[y][x] >= 65) {
-        std::cout << ::maze[y][x];
-    }
-    return std::pair<int, int> {-1, -1};
-}
-
-
-void push(std::queue<std::pair<int, int>>* que, std::pair<int, int> start, std::set<std::pair <int, int>>* passed) {
-    if (!passed->count(start)) {  // если точка хорошая и раньше не встречалась
-        que->push(start);  // добавляем точку в очередь
-        passed->insert(start);  // запоминаем точку
+    } else {
+        return false;
     }
 }
 
 
-void helper(std::queue<std::pair<int, int>>* que, std::set<std::pair <int, int>>* passed) {
+void helper(std::queue<std::pair<int, int>>* que) {
     if (!que->empty()) {  // пока в очереди есть точки
-        std::pair<int, int> start = que->front();  // выбираем первый элемент
-        push(que, go_right(start.first, start.second), passed);  // проходимся в право
-        push(que, go_up(start.first, start.second), passed);
-        push(que, go_down(start.first, start.second), passed);
-        push(que, go_left(start.first, start.second), passed);
+        std::pair<int, int> start = que->front();
+        ::maze[start.second][start.first] = '#';
+        if (check(start.first - 1, start.second)) que->push(std::pair<int, int>{start.first - 1, start.second});
+        if (check(start.first + 1, start.second)) que->push(std::pair<int, int>{start.first + 1, start.second});
+        if (check(start.first, start.second - 1)) que->push(std::pair<int, int>{start.first, start.second - 1});
+        if (check(start.first, start.second + 1)) que->push(std::pair<int, int>{start.first, start.second + 1});
         que->pop();  // удаляем рассмотренный элемент
-        helper(que, passed);
+        helper(que);
     }
 }
 
@@ -120,12 +72,9 @@ int main() {
     } else if (::maze[start.second][start.first] <= 90 && ::maze[start.second][start.first] >= 65) {
         std::cout << ::maze[start.second][start.first] << std::endl;
     } else {
-        std::queue<std::pair<int, int>> que;  // очередь на посещение
-        std::set <std::pair<int, int>> passed;  // посещенные точки
-        passed.insert(start);
-        passed.insert(std::pair<int, int> {-1, -1});  // добавим для проверок на допустимые координаты
+        std::queue<std::pair<int, int>> que;
         que.push(start);
-        helper(&que, &passed);
+        helper(&que);
     }
     return 0;
 }
