@@ -1,8 +1,9 @@
 #include <iostream>
-
 int main() {
-    double i;
+    int i;
+    double d;
     i = 5;
-    std::cout << i;
+    d = 5;
+    std::cout << i << d;
     return 0;
 }

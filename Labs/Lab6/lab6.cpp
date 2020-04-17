@@ -1,9 +1,5 @@
-//
-// Created by canned_dead on 14.01.2020.
-//
 #include <iostream>
 #include <string>
-#include <fstream>
 
 #include "json.hpp"
 #include "httplib.h"
@@ -11,21 +7,19 @@
 using json = nlohmann::json;
 
 void
-replace(std::string& str, const std::string& from, const std::string& to)
+replace (std::string& str, const std::string& from, const std::string& to)
 {
-    size_t start_pos = str.find(from);
-    if(start_pos == std::string::npos) {
-        return;
-    }
-    str.replace(start_pos, from.length(), to);
+    size_t start_pos = str.find (from);
+    str.replace(start_pos, from.length (), to);
 }
 
+
 void
-gen_response(const httplib::Request& req, httplib::Response& res)
+gen_response (const httplib::Request& req, httplib::Response& res)
 {
     std::string s;
-    httplib::Client cli("api.openweathermap.org", 80);
-    auto result = cli.Get("/data/2.5/forecast?id=693805&APPID=f22a30a0bd02eeadff2e3c5132442df2&units=metric");
+    httplib::Client cli ("api.openweathermap.org", 80);
+    auto result = cli.Get ("/data/2.5/forecast?id=693805&APPID=f22a30a0bd02eeadff2e3c5132442df2&units=metric");
     json j = json::parse(result->body);
     std::cout << j.at("city").at("name") << std::endl;
     int start = j.at("list")[0].at("dt");
@@ -47,8 +41,9 @@ gen_response(const httplib::Request& req, httplib::Response& res)
     res.set_content(s, "text/html");
 }
 
+
 int
-main()
+main ()
 {
     std::cout << "SERVER RUN!" << std::endl;
     httplib::Server svr;
