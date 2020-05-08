@@ -29,5 +29,7 @@
 | [Задание 29](Tasks/Task29/task29.cpp) |
 | [Задание 30](Tasks/Task30/t30.cpp) |
 | [Задание 31](Tasks/Task31/task31.cpp) |
+| [Задание 32](Tasks/Task32/task32.cpp) |
+| [Задание 33](Tasks/Task33/task33.cpp) |
 
 император хранит!

@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <queue>
 
 std::string maze[25] = {
         "####B######################",
