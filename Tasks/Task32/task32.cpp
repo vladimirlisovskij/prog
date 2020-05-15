@@ -14,9 +14,20 @@ bool is_bin (const string& str) {
     return str == "+" || str == "-" || str == "*" || str == "/" || str == "^";
 }
 
-// приоритет второго оператора больше чем у первого */
-bool is_prior(const string& str1, const string& str2) {
-    return str2 == "^" || ((str1 == "+" || str1 == "-") && (str2 == "*" || str2 == "/"));
+// приоритет оператора*/
+int prior(const char str) {
+    switch (str){
+        case '^':
+            return 2;
+        case '*':
+        case '/':
+            return 1;
+        case '+':
+        case '-':
+            return 0;
+        default:
+            return -1;
+    }
 }
 
 // помещает символ либо в стек либо в результирующую строку
@@ -32,7 +43,7 @@ void helper (const string& tok, stack<string>& temp, string& res) {
         if (temp.empty()) cout << "wrong bracer\n";
         temp.pop();
     } else if (is_bin(tok)) {
-        while (!temp.empty() && is_prior(tok, temp.top())) {
+        while (!temp.empty() && (prior(temp.top()[0]) >= prior(tok[0])) && (prior(temp.top()[0]) != 2)) {
             res += temp.top() + " ";
             temp.pop();
         }
