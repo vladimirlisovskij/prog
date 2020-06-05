@@ -9,7 +9,7 @@
 | [Задание 9](Tasks/Task9/task9.cpp) | [Лабораторная 5](Labs/Lab5/report5.md)|
 | [Задание 10](Tasks/Task10/task10.cpp) | [Лабораторная 6](Labs/Lab6/report6.md)|
 | [Задание 11](Tasks/Task11/task11.cpp) | [Лабораторная 7](Labs/Lab7/report7.md) |
-| [Задание 12](Tasks/Task12/task12.cpp) |
+| [Задание 12](Tasks/Task12/task12.cpp) | [Лабораторная 9](Labs/Lab9/report9.md) |
 | [Задание 13](Tasks/Task13/task13.cpp) |
 | [Задание 14](Tasks/Task14/task14.cpp) |
 | [Задание 15](Tasks/Task15/task15.cpp) |
