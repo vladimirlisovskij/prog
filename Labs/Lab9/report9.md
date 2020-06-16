@@ -454,7 +454,7 @@ TEST(Calculator, Test12)
     ASSERT_TRUE(door.isCorrectPassword());  // сравниваемся
 }
 ```
-_(листинг 12. Код теста 12)_
+_<p align="center">(листинг 12. Код теста 12)</p>_
 
 <p align="center">
 <img src="img/12.png"><br/>
