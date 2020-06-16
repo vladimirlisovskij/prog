@@ -13,13 +13,24 @@
 </h3> 
 
 <p align="center">
-
-| Задания | Лабораторные |
-|---------|--------------|
-| [Задание 31](Tasks/Task31/task31.cpp) |  [Лабораторная 7](Labs/Lab7/report7.md) |
-| [Задание 32](Tasks/Task32/task32.cpp) |  [Лабораторная 8](Labs/Lab8/report8.md) |
-| [Задание 33](Tasks/Task33/task33.cpp) |  [Лабораторная 9](Labs/Lab9/report9.md) |
-
+    <table>
+        <tr>
+            <th> Задания </th>
+            <th> Лабораторные </th>
+        </tr>
+        <tr>
+            <td> <a href="Tasks/Task31/task31.cpp">Задание 31</a> </td>
+            <td> <a href="Labs/Lab7/report7.md">Лабораторная 7</a> </td>
+        </tr>
+        <tr>
+            <td> <a href="Tasks/Task32/task32.cpp">Задание 32</a> </td>
+            <td> <a href="Labs/Lab8/report8.md">Лабораторная 8</a> </td>
+        </tr>
+        <tr>
+            <td> <a href="Tasks/Task33/task33.cpp">Задание 33</a> </td>
+            <td> <a href="Labs/Lab9/report9.md">Лабораторная 9</a> </td>
+        </tr>
+    </table>
 </p>
 
 ---
