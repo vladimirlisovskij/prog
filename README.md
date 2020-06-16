@@ -12,7 +12,7 @@
 </p>
 </h3> 
 
-<p align="center">
+<center>
     <table>
         <tr>
             <th> Задания </th>
@@ -31,7 +31,7 @@
             <td> <a href="Labs/Lab9/report9.md">Лабораторная 9</a> </td>
         </tr>
     </table>
-</p>
+</center>
 
 ---
 
