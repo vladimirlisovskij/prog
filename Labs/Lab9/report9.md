@@ -64,7 +64,7 @@ TEST(Calculator, Test1)
     door.wait();
 }
 ```
-_(листинг 1. Код теста 1)_
+_<p align="center">(листинг 1. Код теста 1)</p>_
 
 <p align="center">
 <img src="img/1.png"><br/>
@@ -95,7 +95,7 @@ TEST(Calculator, Test2)
     ASSERT_FALSE(door.isDoorOpen());
 }
 ```
-_(листинг 2. Код теста 2)_
+_<p align="center">(листинг 2. Код теста 2)</p>_
     
 <p align="center">
 <img src="img/2.png"><br/>
@@ -126,7 +126,7 @@ TEST(Calculator, Test3)
     ASSERT_TRUE(door.isDoorOpen());
 }
 ```
-_(листинг 3. Код теста 3)_
+_<p align="center">(листинг 3. Код теста 3)</p>_
 
 <p align="center">
 <img src="img/3.png"><br/>
@@ -157,7 +157,7 @@ TEST(Calculator, Test4)
     ASSERT_EQ(door.unlockDoor(), DoorStatus::OPEN);
 }
 ```
-_(листинг 4. Код теста 4)_
+_<p align="center">(листинг 4. Код теста 4)</p>_
 
 <p align="center">
 <img src="img/4.png"><br/>
@@ -188,7 +188,7 @@ TEST(Calculator, Test5)
     ASSERT_EQ(door.lockDoor(), DoorStatus::CLOSE);
 }
 ```
-_(листинг 5а. Код теста 5)_
+_<p align="center">(листинг 5а. Код теста 5)</p>_
 
 <p align="center">
 <img src="img/5.png"><br/>
@@ -206,7 +206,7 @@ DoorStatus LockController::lockDoor()
     return latch->open();
 }
 ```
-_(листинг 5б. Код c ошибкой)_
+_<p align="center">(листинг 5б. Код с ошибкой)</p>_
 
 ```cpp
 DoorStatus LockController::lockDoor()
@@ -214,7 +214,7 @@ DoorStatus LockController::lockDoor()
     return latch->close();
 }
 ```
-_(листинг 5в. Код без ошибки)_
+_<p align="center">(листинг 5в. Код без ошибки)</p>_
 
 На мой взгляд, такая ошибка может возникнуть при копировании тел довольно схожих методов.
 
@@ -245,7 +245,7 @@ TEST(Calculator, Test6)
     ASSERT_EQ(door.hardWareCheck(), HardWareStatus::OK);
 }
 ```
-_(листинг 6. Код теста 6)_
+_<p align="center">(листинг 6. Код теста 6)</p>_
 
 <p align="center">
 <img src="img/6.png"><br/>
@@ -277,7 +277,7 @@ TEST(Calculator, Test7)
     ASSERT_EQ(door.hardWareCheck(), HardWareStatus::ERROR);
 }
 ```
-_(листинг 7. Код теста 7)_
+_<p align="center">(листинг 7. Код теста 7)</p>_
 
 <p align="center">
 <img src="img/7.png"><br/>
@@ -310,7 +310,7 @@ TEST(Calculator, Test8)
     ASSERT_EQ(door.hardWareCheck(), HardWareStatus::ERROR);
 }
 ```
-_(листинг 8. Код теста 8)_
+_<p align="center">(листинг 8. Код теста 8)</p>_
 
 <p align="center">
 <img src="img/8.png"><br/>
@@ -343,7 +343,7 @@ TEST(Calculator, Test9)
     ASSERT_TRUE(door.isCorrectPassword());
 }
 ```
-_(листинг 9. Код теста 9)_
+_<p align="center">(листинг 9. Код теста 9)</p>_
 
 <p align="center">
 <img src="img/9.png"><br/>
@@ -376,7 +376,7 @@ TEST(Calculator, Test10)
     ASSERT_FALSE(door.isCorrectPassword());
 }
 ```
-_(листинг 10. Код теста 10)_
+_<p align="center">(листинг 10. Код теста 10)</p>_
 
 <p align="center">
 <img src="img/10.png"><br/>
@@ -416,7 +416,7 @@ TEST(Calculator, Test11)
     ASSERT_TRUE(door.isCorrectPassword());
 }
 ```
-_(листинг 11. Код теста 11)_
+_<p align="center">(листинг 11. Код теста 11)</p>_
 
 <p align="center">
 <img src="img/11.png"><br/>
