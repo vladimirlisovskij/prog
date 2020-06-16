@@ -3,6 +3,9 @@
 Решенные задачи
 </p>
 </h1>
+
+---
+
 <h3>
 <p align="center">
 Второй семестр
@@ -14,6 +17,8 @@
 | [Задание 31](Tasks/Task31/task31.cpp) |  [Лабораторная 7](Labs/Lab7/report7.md) |
 | [Задание 32](Tasks/Task32/task32.cpp) |  [Лабораторная 8](Labs/Lab8/report8.md) |
 | [Задание 33](Tasks/Task33/task33.cpp) |  [Лабораторная 9](Labs/Lab9/report9.md) |
+
+---
 
 <h3>
 <p align="center">
