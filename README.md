@@ -1,4 +1,25 @@
-# Решенные задачи
+<h1>
+<p align="center">
+Решенные задачи
+</p>
+</h1>
+<h3>
+<p align="center">
+Второй семестр
+</p>
+</h3> 
+
+| Задания | Лабораторные |
+|---------|--------------|
+| [Задание 31](Tasks/Task31/task31.cpp) |  [Лабораторная 7](Labs/Lab7/report7.md) |
+| [Задание 32](Tasks/Task32/task32.cpp) |  [Лабораторная 8](Labs/Lab8/report8.md) |
+| [Задание 33](Tasks/Task33/task33.cpp) |  [Лабораторная 9](Labs/Lab9/report9.md) |
+
+<h3>
+<p align="center">
+Первый семестр
+</p>
+</h3> 
 
 | Задания | Лабораторные |
 |---------|--------------|
@@ -8,9 +29,9 @@
 | [Задание 8](Tasks/Task8/task8.cpp) | [Лабораторная 4](Labs/Lab4/report4.md)|
 | [Задание 9](Tasks/Task9/task9.cpp) | [Лабораторная 5](Labs/Lab5/report5.md)|
 | [Задание 10](Tasks/Task10/task10.cpp) | [Лабораторная 6](Labs/Lab6/report6.md)|
-| [Задание 11](Tasks/Task11/task11.cpp) | [Лабораторная 7](Labs/Lab7/report7.md) |
-| [Задание 12](Tasks/Task12/task12.cpp) | [Лабораторная 8](Labs/Lab8/report8.md) |
-| [Задание 13](Tasks/Task13/task13.cpp) | [Лабораторная 9](Labs/Lab9/report9.md) |
+| [Задание 11](Tasks/Task11/task11.cpp) |
+| [Задание 12](Tasks/Task12/task12.cpp) |
+| [Задание 13](Tasks/Task13/task13.cpp) |
 | [Задание 14](Tasks/Task14/task14.cpp) |
 | [Задание 15](Tasks/Task15/task15.cpp) |
 | [Задание 16](Tasks/Task16/task16.cpp) |
@@ -28,8 +49,5 @@
 | [Задание 28](Tasks/Task28/task28.cpp) |
 | [Задание 29](Tasks/Task29/task29.cpp) |
 | [Задание 30](Tasks/Task30/t30.cpp) |
-| [Задание 31](Tasks/Task31/task31.cpp) |
-| [Задание 32](Tasks/Task32/task32.cpp) |
-| [Задание 33](Tasks/Task33/task33.cpp) |
 
 император хранит!
